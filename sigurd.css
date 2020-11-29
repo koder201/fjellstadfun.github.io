@@ -1,0 +1,13 @@
+body{
+
+    background-image: url("img/verdensrommet.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-size: 24pt;
+    color:green;
+}
+    
