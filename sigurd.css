@@ -1,10 +1,20 @@
+body {
+  margin: 0;
+}
+.header{
+  background-color: rgb(175, 171, 171);
+  padding: 1rem;
+}
+.header h2 {
+  margin: 0;
+}
 .btn-group {
   float: right;
+  margin-top: 1.5rem;
 }
 
 .btn-group button {
-    background-color: firebrick; /* Green background */
-    border: 1px solid black; /* Green border */
+    background-color: rgb(175, 171, 171); /* firebrick background */
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
@@ -25,7 +35,7 @@
   
   /* Add a background color on hover */
   .btn-group button:hover {
-    background-color: #3e8e41;
+    background-color:rgb(100, 95, 95);
   }
   body{
 background-image: url("img/verdensrommet.jpg");
@@ -34,8 +44,21 @@ background-repeat: no-repeat;
 background-size: cover;
   }
 
+h1 a{
+  color: yellow;
+}
+
 p{
     font-size: 24pt;
-    color:green;
+    color:yellow;
 }
-    
+
+h2 a{
+  color:rgb(67, 238, 24)
+}
+
+.info{
+  margin: 10rem auto;
+  text-align: center;
+  font-size: 60px;
+}

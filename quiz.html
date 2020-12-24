@@ -1,0 +1,50 @@
+<html>
+    <head>
+       <link href="sigurd.css" rel="stylesheet" type="text/css"> 
+    </head>
+   
+   <body>
+     <div class="header">
+      <div class="btn-group">
+        <button onclick='alert(" Hei jeg heter Sigurd. Jeg er 9 år gammel og jeg er veldig interessert i programmering. Jeg ville prøve html, så da startet jeg å lage denne nettsiden.")'>Informasjon</button>
+        <button onclick='window.location.href="quiz.html"'>Quiz</button>
+        <button onclick='window.location.href="lenker.html"'>Lenker</button>
+        <button>Endre språk</button>   
+      </div>
+        
+      <h1><a href="index.html">Sigurd sin nettside</a></h1>
+     </div>
+     <h2><p style='color:yellow'>Trykk p&aring; en av knappene s&aring; kommer det en Quiz (Skriv med store bokstaver.)</p>
+     
+     <h2><p><button style='color:red; font-size:1.3rem' onclick='function ask(question,correct){
+        var svar=prompt(question);
+        if (svar === null) {
+          exit();
+        }
+        if(svar==correct)alert("Riktig!");
+        else alert ("Feil");
+        }
+        
+  
+        ask("Hva heter USAs president? (endres 20. januar 2021)","DONALD TRUMP");
+        ask("Når ble grunnloven i Norge lagd?","1814");
+        ask("Hvor mye blir 3x3?","9")
+        ask("Hvem har laget fortellingene om Emil i Lønneberget?","ASTRID LINDGREN");
+        '>Quiz</button>
+        <h2><p><button style='color:red; font-size:1.5rem' onclick='function ask(question,correct){
+          var svar=prompt(question);
+          if (svar === null) {
+              exit();
+          }
+          if(svar==correct)alert("Riktig!");
+          else alert ("Feil");
+          }
+          
+  
+          ask("Hvor mange søndager er det i advent?","4");
+          ask("Hvilken farge er det på advents-lysene?","LILLA");
+          ask("Hvilken ukedag er julaften i år 2020?","TORSDAG");
+          ask("Hvor bor julenissen?","PÅ NORDPOLEN")'>Jule-Quiz</button>
+        </script>     
+    </body>
+</html>
