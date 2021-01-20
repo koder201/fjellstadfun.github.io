@@ -6,15 +6,15 @@
    <body>
      <div class="header">
       <div class="btn-group">
-        <button onclick='alert(" Hei jeg heter Sigurd. Jeg er 9 år gammel og jeg er veldig interessert i programmering. Jeg ville prøve html, så da startet jeg å lage denne nettsiden.")'>Informasjon</button>
+        <button onclick='alert("Hei, jeg heter Sigurd, jeg er ni år gammel og er veldig inntressert i programmering. Jeg startet på denne nettsiden da jeg var åtte år.")'>Informasjon</button>
         <button onclick='window.location.href="quiz.html"'>Quiz</button>
         <button onclick='window.location.href="lenker.html"'>Lenker</button>
-        <button>Endre språk</button>   
+        <button onclick='window.location.href="spill_jeg_har_laget.html"'>Spill Jeg Har Laget</button>   
       </div>
         
-      <h1><a href="index.html">Sigurd sin nettside</a></h1>
+      <h1><a href="index.html">Sigurd Sin Nettside</a></h1>
      </div>
-     <h2><p style='color:yellow'>Trykk p&aring; en av knappene s&aring; kommer det en Quiz (Skriv med store bokstaver.)</p>
+     <h2><p style='color:yellow'></p>
      
      <h2><p><button style='color:red; font-size:1.3rem' onclick='function ask(question,correct){
         var svar=prompt(question);
@@ -26,25 +26,26 @@
         }
         
   
-        ask("Hva heter USAs president? (endres 20. januar 2021)","DONALD TRUMP");
-        ask("Når ble grunnloven i Norge lagd?","1814");
-        ask("Hvor mye blir 3x3?","9")
-        ask("Hvem har laget fortellingene om Emil i Lønneberget?","ASTRID LINDGREN");
-        '>Quiz</button>
+        ask ("Hva heter USAs president?", "JOE BIDEN");
+        ask ("Når ble grunnloven i norge laget?", "1814");
+        ask ("Hva er 3x3", "9")
+        ask ("Hvem har laget historiene om Emil i Lønneberget?", "ASTRID LINDGREN");
+        '> Quiz </button>
+        
+        
         <h2><p><button style='color:red; font-size:1.5rem' onclick='function ask(question,correct){
           var svar=prompt(question);
           if (svar === null) {
               exit();
           }
           if(svar==correct)alert("Riktig!");
-          else alert ("Feil");
+          else alert ("wrong");
           }
-          
   
-          ask("Hvor mange søndager er det i advent?","4");
-          ask("Hvilken farge er det på advents-lysene?","LILLA");
-          ask("Hvilken ukedag er julaften i år 2020?","TORSDAG");
-          ask("Hvor bor julenissen?","PÅ NORDPOLEN")'>Jule-Quiz</button>
-        </script>     
+          ash ("Hvilken verdensdel ligger Norge i?", "EUROPA");
+          ask ("Hvilket land er størst av USA og Russland?", "RUSSLAND");
+          ask ("Stillehavet er det største havet i verden. Fleip eller fakta?", "FAKTA");
+          ask ("Hvilket land er det minste i verden?", "VATIKANSTATEN") '> Quiz om land, verdensdeler og hav (laget av Nora and Leyla) </button>          
+      </script>     
     </body>
 </html>
