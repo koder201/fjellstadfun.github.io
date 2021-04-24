@@ -47,6 +47,20 @@
           ask ("Hvilket land er størst av USA og Russland?", "RUSSLAND");
           ask ("Stillehavet er det største havet i verden. Fleip eller fakta?", "FAKTA");
           ask ("Hvilket land er det minste i verden?", "VATIKANSTATEN") '> Quiz om land, verdensdeler og hav (laget av Nora og Leyla)</button>          
+         
+         
+         <h2><p><button style='color:red; font-size:1.5rem' onclick='function ask(question,correct){
+          var svar=prompt(question);
+          if (svar === null) {
+              exit();
+          }
+          if(svar==correct)alert("Riktig!");
+          else alert ("Feil");
+          }
+          ask ("Hvilken vårmåned er den siste?", "MAI");
+          ask ("Hva er en hestehov. En fugl, et insekt eller en blomst?", "EN BLOMST");
+          ask ("Hvilken ukedag er påskeaften?", "Lørdag");
+          ask ("14. mai i år er Kristi himmelfartsdag. Fleip eller Fakta?", "FLEIP") '> Vårquiz</button>     
       </script>     
     </body>
 </html>
