@@ -47,7 +47,24 @@
           ask ("Hvilket land er størst av USA og Russland?", "RUSSLAND");
           ask ("Stillehavet er det største havet i verden. Fleip eller fakta?", "FAKTA");
           ask ("Hvilket land er det minste i verden?", "VATIKANSTATEN") '> Quiz om land, verdensdeler og hav (laget av Nora og Leyla)</button>          
-      
-    </script>     
-    </body>
+       
+
+          <h2><p><button style='color:red; font-size:1.5rem' onclick='function ask(question,correct){
+          var svar=prompt(question);
+          if (svar === null) {
+            exit();
+          }
+          if(svar==correct)alert("Riktig!");
+          else alert ("Feil");
+          }
+        
+  
+          ask ("Hvor mange uker varer sommerferien?", "8");
+          ask ("Hvor mange måneder varer sommeren?", "4");
+          ask ("Hvilken merkedag feirer vi den 23.Juni? ", "SANKTHANSAFTEN")
+          ask ("Hva heter den første måneden på sommeren?", "JUNI");
+          '> Sommerquiz </button>
+    
+   </script>     
+  </body>
 </html>
