@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .header{
-  background-color: rgb(175, 171, 171);
+  background-color: rgb(14, 12, 110);
   padding: 1rem;
 }
 .header h2 {
@@ -14,7 +14,7 @@ body {
 }
 
 .btn-group button {
-    background-color: rgb(175, 171, 171); /* firebrick background */
+    background-color: rgb(14, 12, 110); /* firebrick background */
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
@@ -35,7 +35,7 @@ body {
   
   /* Add a background color on hover */
   .btn-group button:hover {
-    background-color:rgb(100, 95, 95);
+    background-color:rgb(42, 61, 236);
   }
   body{
 background-image: url("img/bakgrunntilnettside.jpg");
