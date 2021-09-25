@@ -12,7 +12,7 @@
         <button onclick='window.location.href="filmtips.for.familien.html"'>Filmtips For Familien</button>
       </div>
         
-      <h1><a href="index.html">Sigurd Sin Nettside 1.2</a></h1>
+      <h1><a href="index.html">Sigurd Sin Nettside 1.3</a></h1>
      </div>
      
      <h2><p style='color:yellow'></p>
@@ -22,7 +22,7 @@
         if (svar === null) {
           exit();
         }
-        if(svar==correct)alert("Riktig!");
+        if(svar.toUpperCase().trim() ===correct)alert("Riktig!");
         else alert ("Feil");
         }
         
@@ -34,14 +34,7 @@
         '> Quiz </button>
         
         
-        <h2><p><button style='color:red; font-size:1.5rem' onclick='function ask(question,correct){
-          var svar=prompt(question);
-          if (svar === null) {
-              exit();
-          }
-          if(svar==correct)alert("Riktig!");
-          else alert ("Feil");
-          }
+        <h2><p><button style='color:red; font-size:1.5rem' onclick='
   
           ask ("Hvilken verdensdel ligger Norge i?", "EUROPA");
           ask ("Hvilket land er størst av USA og Russland?", "RUSSLAND");
@@ -49,14 +42,7 @@
           ask ("Hvilket land er det minste i verden?", "VATIKANSTATEN") '> Quiz om land, verdensdeler og hav (laget av Nora og Leyla)</button>          
        
 
-          <h2><p><button style='color:red; font-size:1.5rem' onclick='function ask(question,correct){
-          var svar=prompt(question);
-          if (svar === null) {
-            exit();
-          }
-          if(svar==correct)alert("Riktig!");
-          else alert ("Feil");
-          }
+          <h2><p><button style='color:red; font-size:1.5rem' onclick='
         
   
           ask ("Hvor mange uker varer sommerferien?", "8");
