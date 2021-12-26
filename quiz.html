@@ -1,6 +1,16 @@
 <html>
     <head>
        <link href="sigurd.css" rel="stylesheet" type="text/css"> 
+       <script>
+         function ask(question,correct){
+        var svar=prompt(question);
+        if (svar === null) {
+          exit();
+        }
+        if(svar.toUpperCase().trim() ===correct)alert("Riktig!");
+        else alert ("Feil");
+        }
+       </script>
     </head>
    
    <body>
@@ -17,14 +27,7 @@
      
      <h2><p style='color:yellow'></p>
      
-     <h2><p><button style='color:red; font-size:1.5rem' onclick='function ask(question,correct){
-        var svar=prompt(question);
-        if (svar === null) {
-          exit();
-        }
-        if(svar.toUpperCase().trim() ===correct)alert("Riktig!");
-        else alert ("Feil");
-        }
+     <h2><p><button style='color:red; font-size:1.5rem' onclick='
         
   
         ask ("Hva heter USAs president?", "JOE BIDEN");
@@ -39,17 +42,16 @@
           ask ("Hvilken verdensdel ligger Norge i?", "EUROPA");
           ask ("Hvilket land er størst av USA og Russland?", "RUSSLAND");
           ask ("Stillehavet er det største havet i verden. Fleip eller fakta?", "FAKTA");
-          ask ("Hvilket land er det minste i verden?", "VATIKANSTATEN") '> Quiz om land, verdensdeler og hav (laget av Nora og Leyla)</button>          
+          ask ("Hvilket land er det minste i verden?", "VATIKANSTATEN") '> Quiz om land, verdensdeler og hav (laget av Nora og Leyla) </button>          
        
-
-          <h2><p><button style='color:red; font-size:1.5rem' onclick='
-        
+       <h2><p><button style='color:red; font-size:1.5rem' onclick='
   
-          ask ("Hvor mange uker varer sommerferien?", "8");
-          ask ("Hvor mange måneder varer sommeren?", "4");
-          ask ("Hvilken merkedag feirer vi den 23.Juni? ", "SANKTHANSAFTEN")
-          ask ("Hva heter den første måneden på sommeren?", "JUNI");
-          '> Sommerquiz </button>
+        ask ("Hvilken by kommer Maria og Josef fra?", "Nasaret");
+        ask ("Hva heter skomakeren i Skomakergata?", "Jens Petrus Andersen");
+        ask ("Hvem laget sangen Last Christmas?", "Wham!");
+        ask ("Hva er God jul på spansk?", "Feliz navidad") '> Julequiz </button>          
+
+          
     
    </script>     
   </body>
